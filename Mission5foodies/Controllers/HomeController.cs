@@ -18,7 +18,7 @@ namespace Mission5foodies.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Calculator()
         {
             return View();
         }

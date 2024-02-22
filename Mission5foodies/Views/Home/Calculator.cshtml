@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Calculator";
+}
+
+<body style="background-color: #F9EAD2;">
+<div class="text-center">
+    <h1 class="display-4" style="color: #D43307;">Calculate how much I charge</h1>
+
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+        <script src="~/js/site.js"></script>
+    </head>
+
+    <h2>Calculate here</h2>
+    <form>
+        <label for="hourlyRate">Hourly rate:</label>
+        <input type="text" id="hourlyRate" value="$20" readonly>
+        <br />
+        <br />
+        <label>Desired number of hours: </label>
+        <input type="number" id="hours" min="0" required>
+        <br />
+        <br />
+        <button id="calculateBtn">Calculate Total</button>
+        <br />
+        <br />
+        <label for="total">Total:</label> <br />
+        <input type="text" id="total" readonly>
+        <br />
+        <br />
+        <a href="/">Back to Home</a>
+
+    </form>
+
+
+</body>
+
